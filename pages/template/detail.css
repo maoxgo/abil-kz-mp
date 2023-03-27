@@ -1,0 +1,57 @@
+/* pages/template/detail.wxss */
+page {
+    height: 100%;
+}
+.page-container {
+    /* display: flex; */
+    height: 100%;
+}
+
+.main-content {
+    /* position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 41px; */
+    background-color: black;
+    min-height: 100%;
+    padding-bottom: 41px;
+}
+
+/* .bottom-bar {
+  position: fixed; 
+  right: 0;
+  left: 0;
+  bottom: 0; 
+  width: 100%; 
+  z-index: 1000;
+  background-color: white;
+
+  display: flex;
+  justify-content: flex-end;
+} */
+
+.bottom-bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 40px;  */
+    z-index: 1000;
+    background-color: white;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom-button {
+    flex-grow: 1;
+    /* display: block; */
+}
+
+.bottom-text {
+    flex-grow: 1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+/* pages/my/invitation/detail.wxss */
+page {
+    background-color: black;
+}
+
+.main-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 41px;
+    background-color: black;
+}
+
+.bottom-bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 40px;  */
+    z-index: 1000;
+    background-color: white;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.bottom-button {
+    flex-grow: 1;
+    /* display: block; */
+}

@@ -1,0 +1,83 @@
+/* pages/my/invitation/print.wxss */
+/* pages/my/invitation/guest-list.wxss */
+
+.container {
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+.main-container {
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 44px;
+    /* background-color: lightgray; */
+}
+
+.address-header {
+    padding: 6px 16px 6px;
+    display: flex;
+    align-items: center;
+}
+
+.address-header-title {
+    /* padding-left: 16px; */
+    /* float: left; */
+    font-size: 16px;
+    /* line-height: 20px; */
+    color: #969799;
+}
+
+.address-header-right {
+    margin-left: 16px;
+    /* float: right; */
+}
+
+.bottom-bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 40px;  */
+    z-index: 1000;
+    background-color: white;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-item {
+    flex-grow: 1;
+    /* display: block; */
+}
+
+.bottom-item-price {
+    font-size: 20px;
+    color: #ee0a24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: lightgrey solid 1px; */
+}
+
+.canvas-widget {
+    position: absolute;
+    right: 100vw;
+    height: 0;
+    /* z-index: 1; */
+}
+
+.van-card {
+    /* background-color: white; */
+}
+.van-card__price {
+    display: inline-block;
+    font-weight: 700;
+    color: #ee0a24;
+    font-size: 16px;
+}
+
+.van-card__num {
+    float: right;
+    display: flex;
+    align-items: center;
+}

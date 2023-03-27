@@ -1,0 +1,24 @@
+/* pages/my/invitation/guest-add.wxss */
+.main-container {
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 44px;
+    /* background-color: lightgray; */
+}
+
+/* .bottom-bar {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-content: stretch;
+} */
+
+.bottom-button {
+    flex-grow: 1;
+    /* display: block; */
+}

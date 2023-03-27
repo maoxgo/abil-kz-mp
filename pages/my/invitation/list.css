@@ -1,0 +1,15 @@
+/* pages/my/invitation/list.wxss */
+
+van-button + van-button {
+    padding-left: 3px;
+}
+
+.action-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.action-bar van-button {
+    margin-bottom: 3px;
+}

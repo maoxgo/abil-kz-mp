@@ -1,0 +1,113 @@
+{
+  "setting": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/editor/editor",
+          "pathName": "pages/editor/editor",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/template/list",
+          "pathName": "pages/template/list",
+          "query": "cateId=0",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/login",
+          "pathName": "pages/my/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/template/detail",
+          "pathName": "pages/template/detail",
+          "query": "id=5",
+          "scene": null
+        },
+        {
+          "name": "pages/error/404",
+          "pathName": "pages/error/404",
+          "query": "id=5",
+          "scene": null
+        },
+        {
+          "name": "pages/error/500",
+          "pathName": "pages/error/500",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/list",
+          "pathName": "pages/my/invitation/list",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/edit-info",
+          "pathName": "pages/my/invitation/edit-info",
+          "query": "mode=create&tempId=5",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/detail",
+          "pathName": "pages/my/invitation/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/create-info",
+          "pathName": "pages/my/invitation/create-info",
+          "query": "tempId=5",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/detail",
+          "pathName": "pages/my/invitation/detail",
+          "query": "id=9",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/edit-data",
+          "pathName": "pages/my/invitation/edit-data",
+          "query": "id=32",
+          "scene": null
+        },
+        {
+          "name": "请帖创建",
+          "pathName": "pages/my/invitation/edit-data",
+          "query": "tempId=5&mode=create",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/guest-list",
+          "pathName": "pages/my/invitation/guest-list",
+          "query": "invitationId=9",
+          "scene": null
+        },
+        {
+          "name": "pages/my/invitation/print",
+          "pathName": "pages/my/invitation/print",
+          "query": "id=20",
+          "scene": null
+        },
+        {
+          "name": "我的优惠券",
+          "pathName": "pages/my/coupons/coupons",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}

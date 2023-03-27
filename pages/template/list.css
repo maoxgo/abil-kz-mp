@@ -1,0 +1,24 @@
+/* pages/template/list.wxss */
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 25rpx;
+    margin-top: 15rpx;
+    margin-bottom: 15rpx;
+}
+.card-widget {
+    width: 335rpx;
+    /* 图片宽高比为21/14.8 */
+    height: 475rpx;
+    text-align: center;
+    margin-top: 8rpx;
+    margin-bottom: 8rpx;
+    /* overflow: hidden; */
+}
+
+.mpIcon {
+    transform-origin: 70% 50%;
+    transform: rotate(90deg);
+}

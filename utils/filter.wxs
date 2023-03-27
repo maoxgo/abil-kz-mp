@@ -1,0 +1,29 @@
+
+// const getCommonStyle = function (styleObj, scalingRatio = 1) {
+//   const needUnitStr = ['width', 'height', 'top', 'left', 'right', 'bottom', 'paddingTop', 'paddingLeft', 'paddingRight', 'paddingBottom', 'marginTop', 'marginLeft', 'marginRight', 'marginBottom', 'borderWidth', 'fontSize', 'borderRadius', 'letterSpacing']
+//   const style = {}
+
+//   for (const key in styleObj){
+//     if(needUnitStr.includes(key)){
+//       style[key] = (styleObj[key]*2 * scalingRatio) + 'rpx'
+//     }else{
+//       style[key] = styleObj[key]
+//     }
+//   }
+//   style.transform = `rotate(${style.rotate}deg)`
+//   style.backgroundImage = style.backgroundImage ? `url(${style.backgroundImage})` : '';
+//   return style;
+// }
+
+// const styleObjToStr = function(styleObj) {
+//   let styleStr = ''
+//   for (const key in styleObj) {
+//     styleStr += `${key}:${styleObj[key]};`
+//   }
+//   return styleStr
+// }
+
+// module.exports = {
+//   getCommonStyle,
+//   styleObjToStr
+// }

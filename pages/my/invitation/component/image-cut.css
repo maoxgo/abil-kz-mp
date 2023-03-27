@@ -1,0 +1,27 @@
+/* pages/my/invitation/component/image-cut.wxss */
+.main-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: cale(100vh-41px);
+    /* bottom: 41px; */
+    z-index: 2001;
+}
+
+.bottom-bar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2002;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-button {
+    flex-grow: 1;
+    /* display: block; */
+}

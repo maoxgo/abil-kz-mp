@@ -1,0 +1,12 @@
+import http from '../utils/http';
+const prefix = '/my/invitation';
+export const fetchInvitation = (data) => http.doGet(prefix + '/fetchInvitation', data);
+export const listInvitation = (data) => http.doGet(prefix + '/listInvitation', data);
+export const createInvitation = (data) => http.doPost(prefix + '/createInvitation', data);
+export const editInvitation = (data) => http.doPost(prefix + '/editInvitation', data);
+export const deleteInvitation = (data) => http.doPost(prefix + '/deleteInvitation', data);
+export const uploadImage = (filePath) => http.doUpload(prefix + '/uploadImage', filePath);
+export const createOrder = (data) => http.doPost(prefix + '/createOrder', data);
+export const htmlToImage = (data) => http.doPost(prefix + '/htmlToImage', data);
+export const htmlToImageUrl = (data) => http.doPost(prefix + '/htmlToImageUrl', data);
+export const createOrderV2 = (data) => http.doPost(prefix + '/createOrderV2', data);

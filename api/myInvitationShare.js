@@ -1,0 +1,10 @@
+import http from '../utils/http';
+const prefix = '/my/invitationShare';
+export const listGuest = (data) => http.doGet(prefix + '/listGuest', data);
+export const fetchScore = (data) => http.doGet(prefix + '/fetchScore', data);
+export const batchAddGuest = (data) => http.doPost(prefix + '/batchAddGuest', data);
+export const increaseShareCount = (data) => http.doPost(prefix + '/increaseShareCount', data);
+export const increaseSaveCount = (data) => http.doPost(prefix + '/increaseSaveCount', data);
+export const buildShareImage = (data) => http.doPost(prefix + '/buildShareImage', data);
+export const fetchScoreGoods = (data) => http.doGet(prefix + '/fetchScoreGoods', data);
+export const createScoreOrder = (data) => http.doPost(prefix + '/createScoreOrder', data);

@@ -1,0 +1,199 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "Toybazar"
+			}
+		},
+		{
+			"path": "pages/logs/logs",
+			"style": {
+				"navigationBarTitleText": "查看启动日志"
+			}
+		},
+		{
+			"path": "pages/editor/editor",
+			"style": {}
+		},
+		{
+			"path": "pages/template/list",
+			"style": {
+				"navigationBarTitleText": "模板列表 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/template/detail",
+			"style": {
+				"navigationBarTitleText": "模板详情 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/login",
+			"style": {
+				"navigationBarTitleText": "登录/注册"
+			}
+		},
+		{
+			"path": "pages/my/invitation/list",
+			"style": {
+				"navigationBarTitleText": "我的请帖 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/invitation/create-info",
+			"style": {
+				"navigationBarTitleText": "制作请帖 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/invitation/edit-info",
+			"style": {
+				"navigationBarTitleText": "编辑请帖 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/invitation/edit-data",
+			"style": {
+				"navigationBarTitleText": "编辑请帖 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/invitation/detail",
+			"style": {
+				"navigationBarTitleText": "请帖详情 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/invitation/guest-list",
+			"style": {
+				"navigationBarTitleText": "请帖分享 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/invitation/guest-add",
+			"style": {
+				"navigationBarTitleText": "添加嘉宾 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/error/404",
+			"style": {}
+		},
+		{
+			"path": "pages/error/500",
+			"style": {}
+		},
+		{
+			"path": "pages/my/invitation/print",
+			"style": {
+				"navigationBarTitleText": "请帖印刷 - Toybazar"
+			}
+		},
+		{
+			"path": "pages/my/bindingTel",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/my/coupons/coupons",
+			"style": {
+				"navigationBarTitleText": "我的优惠券 - Toybazar",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/my/order/createInvitationOrder/createInvitationOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建订单 - Toybazar",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/coupon/coupon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "优惠券 - Toybazar",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"sitemapLocation": "sitemap.json",
+	"useExtendedLib": {
+		"weui": true
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/assets/icon/home.png",
+				"selectedIconPath": "static/assets/icon/home-selected.png"
+			},
+			{
+				"pagePath": "pages/my/invitation/list",
+				"text": "我的请帖",
+				"iconPath": "static/assets/icon/email.png",
+				"selectedIconPath": "static/assets/icon/email-selected.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "更多",
+				"iconPath": "static/assets/icon/more.png",
+				"selectedIconPath": "static/assets/icon/more-selected.png"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+
+		}
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "Toybazar",
+		"navigationBarTextStyle": "black",
+		"usingComponents": {
+			"mp-cells": "weui-miniprogram/cells/cells",
+			"mp-cell": "weui-miniprogram/cell/cell",
+			"mp-icon": "weui-miniprogram/icon/icon",
+			"mp-form": "weui-miniprogram/form/form",
+			"van-toast": "/wxcomponents/@vant/weapp/toast/index",
+			"van-button": "/wxcomponents/@vant/weapp/button/index",
+			"van-tag": "/wxcomponents/@vant/weapp/tag/index",
+			"van-cell": "/wxcomponents/@vant/weapp/cell/index",
+			"van-cell-group": "/wxcomponents/@vant/weapp/cell-group/index",
+			"van-datetime-picker": "/wxcomponents/@vant/weapp/datetime-picker/index",
+			"van-action-sheet": "/wxcomponents/@vant/weapp/action-sheet/index",
+			"van-overlay": "/wxcomponents/@vant/weapp/overlay/index",
+			"van-field": "/wxcomponents/@vant/weapp/field/index",
+			"van-calendar": "/wxcomponents/@vant/weapp/calendar/index",
+			"van-stepper": "/wxcomponents/@vant/weapp/stepper/index",
+			"van-card": "/wxcomponents/@vant/weapp/card/index",
+			"van-tabs": "/wxcomponents/@vant/weapp/tabs/index",
+			"van-tab": "/wxcomponents/@vant/weapp/tab/index",
+			"van-icon": "/wxcomponents/@vant/weapp/icon/index",
+			"van-checkbox": "/wxcomponents/@vant/weapp/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/@vant/weapp/checkbox-group/index",
+			"van-submit-bar": "/wxcomponents/@vant/weapp/submit-bar/index",
+			"van-picker": "/wxcomponents/@vant/weapp/picker/index",
+			"van-popup": "/wxcomponents/@vant/weapp/popup/index",
+			"image-cropper": "/wxcomponents/image-cropper/image-cropper"
+			
+		}
+	},
+	"subPackages": []
+}
