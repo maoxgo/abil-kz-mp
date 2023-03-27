@@ -3,12 +3,12 @@
     <view class="container">
         <view class="userinfo">
             <block calss="userinfo-opendata">
-                <!-- <view class="userinfo-avatar" > -->
-                <image class="userinfo-avatar" mode="aspectFit" :src="userInfo.avatar" />
-                <!-- <open-data type="userAvatarUrl"></open-data> -->
-                <!-- </view> -->
-                <!-- <open-data type="userNickName"></open-data> -->
-                <text>{{ userInfo.nickname }}</text>
+                <view class="userinfo-avatar" >
+                <!-- <image class="userinfo-avatar" mode="aspectFit" :src="userInfo.avatar" /> -->
+					<open-data type="userAvatarUrl"></open-data>
+                </view>
+                <open-data type="userNickName"></open-data>
+                <!-- <text>{{ userInfo.nickname }}</text> -->
             </block>
         </view>
         <view style="margin-top: 10%">
