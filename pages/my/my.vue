@@ -15,7 +15,7 @@
             <mp-cells style="font-size: small">
                 <mp-cell link @tap.native="goToInvitation" value="我的请帖"></mp-cell>
                 <mp-cell link @tap.native="goToCoupons" value="我的优惠券"></mp-cell>
-                <mp-cell link @tap.native="goToMall" value="婚礼用品"></mp-cell>
+                <!-- <mp-cell link @tap.native="goToMall" value="婚礼用品"></mp-cell> -->
                 <mp-cell value="客服消息" open-type="contact">
                     <van-button slot="footer" size="small" type="primary" plain custom-style="border:0px;display:inline-block" open-type="contact">
                         <van-icon name="service-o" size="30px" />
@@ -101,7 +101,7 @@ export default {
     methods: {
         handleMakePhoneCell: function () {
             uni.makePhoneCall({
-                phoneNumber: '18116838227'
+                phoneNumber: '13209090144'
             });
         },
 

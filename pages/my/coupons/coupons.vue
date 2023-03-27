@@ -141,7 +141,7 @@ export default {
 					})
 				})
 				return {
-					title: 'Taklip nama',
+					title: 'Toy Bazar',
 					path: '/pages/index/index',
 					promise
 				}

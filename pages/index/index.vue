@@ -61,7 +61,7 @@ export default {
             cates: [],
             templates: [],
             pageNum: 1,
-            pageSize: 15,
+            pageSize: 18,
             hasMore: true,
             mainPic: 'https://cdn.kz.taklipnama.com/public/banner.jpg',
             adPic1: 'https://cdn.kz.taklipnama.com/public/ad_1.png',
@@ -96,13 +96,13 @@ export default {
     },
     onShareAppMessage() {
         return {
-            title: 'TaklipNama',
+            title: 'Toy Bazar',
             path: '/pages/index/index'
         };
     },
     onShareTimeline() {
         return {
-            title: 'TaklipNama'
+            title: 'Toy Bazar'
         };
     },
     methods: {
@@ -169,7 +169,7 @@ export default {
 		handleAd1() {
 			wx.openChannelsActivity({
 				finderUserName: 'sphrj8jYgDevAFy',
-				feedId: 'export/UzFfAgtgekIEAQAAAAAAtCMt-RHpoQAAAAstQy6ubaLX4KHWvLEZgBPE1KB0SHN2GJX9zNPgMJpYdoclnwKKPPilKnahvyxQ',
+				feedId: 'export/UzFfAgtgekIEAQAAAAAAR2stxAdNtgAAAAstQy6ubaLX4KHWvLEZgBPEi6JAV3QiQ6KAzNPgMJrhQMoQrGq_4VcCZ20PuAx4',
 				fail(e) {
 					console.log('打开视频号失败')
 					console.log(e)

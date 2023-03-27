@@ -77,13 +77,13 @@ export default {
      */
     onShareAppMessage() {
         return {
-            title: 'TaklipNama',
+            title: 'Toy Bazar',
             path: '/pages/template/detail?id=' + this.id
         };
     },
     onShareTimeline() {
         return {
-            title: 'TaklipNama',
+            title: 'Toy Bazar',
             query: 'id=' + this.id
         };
     },
