@@ -47,6 +47,18 @@
 							</van-overlay>
 						</template>
 						<van-field
+						    v-else-if="item.type === 'int'"
+						    :value="form[item.code]"
+						    :data-field="item.code"
+							type="digit"
+						    required
+						    clearable
+						    :label="item.title"
+						    :placeholder="item.defaultValue"
+						    maxlength="40"
+						    @change="formInputChange($event, { field: item.code })"
+						/>
+						<van-field
 						    v-else
 						    :value="form[item.code]"
 						    :data-field="item.code"
@@ -178,21 +190,21 @@ export default {
             const newForm = {};
             const newRules = [];
             currTypes.forEach((type) => {
-                if (type.type === 'string' || type.type === 'select') {
-                    newForm[type.code] = info[type.code];
-                    newRules.push({
-                        name: type.code,
-                        rules: [
-                            {
-                                required: true,
-                                minlength: 1,
-                                message: '请完善内容'
-                            }
-                        ]
-                    });
-                } else if (type.type === 'time') {
+                if (type.type === 'time') {
                     newForm[type.code] = moment(info[type.code] || new Date()).format('yyyy-MM-DD HH:mm');
-                }
+                } else {
+					newForm[type.code] = info[type.code];
+					newRules.push({
+					    name: type.code,
+					    rules: [
+					        {
+					            required: true,
+					            minlength: 1,
+					            message: '请完善内容'
+					        }
+					    ]
+					});
+				}
             });
             console.log(newForm);
             this.setData({

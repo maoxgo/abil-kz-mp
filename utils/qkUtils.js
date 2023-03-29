@@ -246,9 +246,9 @@ export function getCustomText(propsValue, extendInfo, types, showGuest) {
             const format = propsValue.timeFormat || type.defaultFormat || 'yyyy-MM-DD HH:mm Bj';
             const time = moment(extendInfo[propsValue.customType] || new Date());
             currText = time.format(format);
-        } else if (type.type === 'string') {
-            currText = extendInfo[type.code] || propsValue.text;
         } else if (type.type === 'select') {
+			currText = extendInfo[type.code] || propsValue.text;
+		} else {
 			currText = extendInfo[type.code] || propsValue.text;
 		}
 
@@ -275,9 +275,7 @@ export function strFomratByTypes(str, extendInfo, types) {
             if (currType) {
                 const val = extendInfo[currType.code] || currType.defaultValue;
 
-                if (currType.type === 'string') {
-                    result += val;
-                } else if (currType.type === 'select') {
+                if (currType.type === 'select') {
 					result += val;
 				} else if (currType.type === 'time') {
                     let timeFormat = currType.defaultFormat || 'yyyy-MM-DD HH:mm Bj';
@@ -287,7 +285,9 @@ export function strFomratByTypes(str, extendInfo, types) {
                     }
 
                     result += moment(new Date(val)).format(timeFormat);
-                }
+                } else {
+					result += val;
+				}
             }
         }
     });
