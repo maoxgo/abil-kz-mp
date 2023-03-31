@@ -63,10 +63,10 @@ export default {
             pageNum: 1,
             pageSize: 18,
             hasMore: true,
-            mainPic: 'https://cdn.kz.taklipnama.com/public/banner.jpg',
-            adPic1: 'https://cdn.kz.taklipnama.com/public/ad_1.png',
-            adPic2: 'https://cdn.kz.taklipnama.com/public/ad_2.png',
-			adPic3: 'https://cdn.kz.taklipnama.com/public/ad_3.png'
+            mainPic: 'https://cdn.toybazar.taklipnama.com/public/banner.jpg',
+            adPic1: 'https://cdn.toybazar.taklipnama.com/public/ad_1.png',
+            adPic2: 'https://cdn.toybazar.taklipnama.com/public/ad_2.png',
+			adPic3: 'https://cdn.toybazar.taklipnama.com/public/ad_3.png'
         };
     },
     onLoad() {
