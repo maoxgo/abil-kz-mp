@@ -132,7 +132,7 @@ export default {
 						resolve({
 							title: '您收到了一张优惠券，请点击领取！',
 							path: '/pages/coupon/coupon?couponId='+item.id,
-							imageUrl: 'https://cdn.taklipnama.com/static/logo.png'
+							imageUrl: 'https://cdn.toybazar.taklipnama.com/public/logo.jpg'
 						})
 					}).catch(e => {
 						uni.hideLoading()

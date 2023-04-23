@@ -1,7 +1,7 @@
 <template>
 	<view class="page-main">
 		<view class="title">
-			Taklip nama 优惠券
+			Toy Bazar 优惠券
 		</view>
 		<view class="coupon">
 			<view class="coupon-main">
@@ -27,7 +27,7 @@
 				使用说明
 			</view>
 			<view class="intro-desc">
-				本优惠券仅限于Toy Bazar小程序里制作婚礼电子请帖使用。付款时选择付款方式为优惠券，因操作失误导致优惠券无法使用本公司拒不承担任何责任。本公司从新疆各地招募合作伙伴，赠送免单券，联系方式：18116838227 （微信同号）。
+				本优惠券仅限于Toy Bazar小程序里制作婚礼电子请帖使用。付款时选择付款方式为优惠券，因操作失误导致优惠券无法使用本公司拒不承担任何责任。本公司从新疆各地招募合作伙伴，赠送免单券，联系方式：13209090144 （微信同号）。
 			</view>
 		</view>
 	</view>
