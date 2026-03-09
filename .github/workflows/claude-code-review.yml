@@ -1,5 +1,9 @@
 name: Claude Code Review
 
+env:
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }} # 密钥信息配置
+  ANTHROPIC_BASE_URL: "https://dashscope.aliyuncs.com/apps/anthropic" # 如果该工具支持自定义 URL
+  ANTHROPIC_MODEL: MiniMax-M2.5
 on:
   pull_request:
     types: [opened, synchronize, ready_for_review, reopened]
